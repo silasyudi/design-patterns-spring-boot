@@ -7,13 +7,14 @@ import silas.yudi.design.patterns.strategy.entities.Product;
 import silas.yudi.design.patterns.strategy.strategies.TaxStrategy;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
 @Service
 public class TaxService {
 
-    private final HashMap<State, TaxStrategy> taxStrategies;
+    private final Map<State, TaxStrategy> taxStrategies;
 
     @Autowired
     public TaxService(Set<TaxStrategy> taxStrategySet) {
