@@ -1,4 +1,4 @@
-# Design Patterns on Sprint Boot
+# Design Patterns on Spring Boot
 
 Demo project for Design Patterns on Spring Boot
 
