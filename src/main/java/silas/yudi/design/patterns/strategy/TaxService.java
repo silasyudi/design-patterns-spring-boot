@@ -13,7 +13,7 @@ import java.util.Set;
 @Service
 public class TaxService {
 
-    public final HashMap<State, TaxStrategy> taxStrategies;
+    private final HashMap<State, TaxStrategy> taxStrategies;
 
     @Autowired
     public TaxService(Set<TaxStrategy> taxStrategySet) {
