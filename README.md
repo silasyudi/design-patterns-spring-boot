@@ -13,21 +13,28 @@ Some examples may be didactic and not functional, and should not be used in real
 
 ## 1. Strategy
 
-Allow you to choose or interchange algorithms at runtime
+Allows you to choose or interchange algorithms at runtime
 
 [Source Code](/src/main/java/silas/yudi/design/patterns/strategy)
 [Tests](/src/test/java/silas/yudi/design/patterns/strategy)
 
 ## 2. Template Method
 
-Allow you to avoid code duplication and determine a skeleton of operations for a family of algorithms
+Allows you to avoid code duplication and determine a skeleton of operations for a family of algorithms
 
 [Source Code](/src/main/java/silas/yudi/design/patterns/templatemethod)
 [Tests](/src/test/java/silas/yudi/design/patterns/templatemethod)
 
 ## 3. Facade
 
-Allow you to encapsulate a complex subsystem behind a unique interface
+Allows you to encapsulate a complex subsystem behind a unique interface
 
 [Source Code](/src/main/java/silas/yudi/design/patterns/facade)
 [Tests](/src/test/java/silas/yudi/design/patterns/facade)
+
+## 4. Abstract Factory
+
+Allows you to create a family of related objects
+
+[Source Code](/src/main/java/silas/yudi/design/patterns/abstractfactory)
+[Tests](/src/test/java/silas/yudi/design/patterns/abstractfactory)

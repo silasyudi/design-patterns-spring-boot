@@ -1,6 +1,6 @@
 package silas.yudi.design.patterns.strategy.strategies;
 
-import silas.yudi.design.patterns.strategy.constants.State;
+import silas.yudi.design.patterns.domain.constants.State;
 
 public interface TaxStrategy {
 

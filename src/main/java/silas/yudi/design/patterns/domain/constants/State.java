@@ -1,4 +1,4 @@
-package silas.yudi.design.patterns.strategy.constants;
+package silas.yudi.design.patterns.domain.constants;
 
 public enum State {
 

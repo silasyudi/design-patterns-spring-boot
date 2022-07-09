@@ -1,9 +1,9 @@
-package silas.yudi.design.patterns.strategy.entities;
+package silas.yudi.design.patterns.domain.entities;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import silas.yudi.design.patterns.strategy.constants.State;
+import silas.yudi.design.patterns.domain.constants.State;
 
 @Getter
 @Setter

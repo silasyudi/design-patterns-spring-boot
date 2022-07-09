@@ -2,8 +2,8 @@ package silas.yudi.design.patterns.strategy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import silas.yudi.design.patterns.strategy.constants.State;
-import silas.yudi.design.patterns.strategy.entities.Product;
+import silas.yudi.design.patterns.domain.constants.State;
+import silas.yudi.design.patterns.domain.entities.Product;
 import silas.yudi.design.patterns.strategy.strategies.TaxStrategy;
 
 import java.util.HashMap;
